@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,500&display=swap');
+
+*{
+    margin:0;
+    padding:0
+}
+
+body{
+    text-align: center;
+    background-color: rgb(114, 248, 168);
+    font-family: 'Work Sans', sans-serif;
+}
+
+.card {
+    backdrop-filter: blur(25px) saturate(200%);
+    -webkit-backdrop-filter: blur(25px) saturate(200%);
+    background-color: rgba(17, 25, 40, 0.64);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+div{
+    margin:40vh auto 1% auto;
+    padding-top:2vh;
+    height: 10vh;
+    width: 20vw;
+    border:2px black;
+    color:white;
+    font-size: 3rem;
+    font-weight: 900;
+    border-radius: 2.7%;
+}
+
+button{
+    margin-left:20px;
+    padding:10px 20px;
+    color:rgb(6, 24, 21);
+    background-color:white;
+    border:none;
+    border-radius:8%;
+    font-size:1rem;
+    cursor: pointer;
+}
+
+div button {
+    box-shadow:
+    1px 1.8px 1.2px rgba(0, 0, 0, 0.04),
+    2.3px 3.9px 2.7px rgba(0, 0, 0, 0.059),
+    3.8px 6.6px 4.6px rgba(0, 0, 0, 0.073),
+    5.7px 9.9px 6.9px rgba(0, 0, 0, 0.084),
+    8.3px 14.3px 10px rgba(0, 0, 0, 0.095),
+    11.7px 20.2px 14.2px rgba(0, 0, 0, 0.106),
+    16.6px 28.7px 20.1px rgba(0, 0, 0, 0.117),
+    24.1px 41.6px 29.2px rgba(0, 0, 0, 0.131),
+    37.1px 64.1px 45px rgba(0, 0, 0, 0.15),
+    66px 114px 80px rgba(0, 0, 0, 0.19);
+}
